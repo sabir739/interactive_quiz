@@ -1,0 +1,48 @@
+<!--
+Project: Interactive Quiz
+Name: Sabir Ali
+Course: Web Programming Lab
+Date: 2026
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Interactive Quiz Application</h1>
+    <p>Test your knowledge with this simple quiz!</p>
+</header>
+
+<main class="quiz-container">
+
+    <!-- Question Section -->
+    <section id="quiz">
+        <h2 id="question">Question will appear here</h2>
+
+        <div id="options">
+            <!-- Options dynamically added -->
+        </div>
+
+        <button id="nextBtn">Next</button>
+    </section>
+
+    <!-- Result Section -->
+    <section id="result" class="hidden">
+        <h2>Your Score: <span id="score"></span></h2>
+        <p id="message"></p>
+
+        <button id="restartBtn">Restart Quiz</button>
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
